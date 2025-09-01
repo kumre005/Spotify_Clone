@@ -42,8 +42,16 @@ nav ul li{
 }
 
 .container{
-    
-    min-height: 75vh;
+    background-color: black;
+    min-height: 72vh;
+    display: flex;
+    color: rgb(154, 253, 200);
+    font-family: 'Varela Round', sans-serif;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url("./assets/img/black.jpg");
 }
 
 .bottom{
@@ -54,10 +62,30 @@ nav ul li{
  color: white;
  justify-content: center;
  align-items: center;
- height: 100px;
+ height: 70px;
+ flex-direction: column;
+ border-radius: 12px;
+}
+
+.icons{
+     margin: 14px 0;
+     font-size: 25px;
 }
 
 #myProgressBar{
     width: 80vw;
     text-align: center;
+}
+
+.songItem{
+    height: 50px;
+    width: 80%;
+    display: flex;
+    background-color: white;
+    color: black;
+
+}
+
+.songItem img{
+
 }
