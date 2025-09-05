@@ -97,13 +97,13 @@ nav ul li {
 }
 
 .songItem img {
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     margin: 0 23px;
     border-radius: 40px;
 }
 
-.songInfo{
+.songInfo {
     position: absolute;
     left: 18vh;
     margin: 15px;
@@ -111,7 +111,8 @@ nav ul li {
 
 
 }
-.songInfo img{
+
+.songInfo img {
     opacity: 0;
     transition: opacity 1s ease-in;
 
