@@ -1,4 +1,4 @@
-console.log("Welcome to Spotify - Let's Bang Bang...!");
+alert("Welcome to Spotify - Let's Bang Bang...!");
 
 // intialize the variables\
 let songIndex = 0;
